@@ -12,9 +12,8 @@
 using namespace std;
 
 void print_disks(int n, char *disks) {
-// YOU NEED TO IMPLEMENT THIS FUNCTION
-// function to print the list of disks, given the number of single color disks and the actual list
-// n represents the number of single color disks
+// function to print the list of disks, given the number of disks and the actual list
+// n represents the number of disks
 // disks represents the list of disks (index 0 being the first disk) where
 // 0 = a light color disks
 // 1 = a dark color disks
