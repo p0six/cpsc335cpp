@@ -57,9 +57,8 @@ int main() {
     cout << "Initial configuration" << endl;
     print_disks(n,disks);
 
-    // loop to push light one before the darks ones
+    // loop to push light one before the darks ones. light = '0', dark = '1'.
     for (int k = 0; k < n; k++) {
-        // light = 0, dark = 1..  light ones need to go before dark ones
         for (int i = k; i < n - (k + 1); i++) {
             if (disks[i] > disks[i + 1]) { // swap
                 disks[i] = '0';
