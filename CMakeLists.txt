@@ -3,5 +3,5 @@ project(cpsc335cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES leftToRight.cpp)
 add_executable(cpsc335cpp ${SOURCE_FILES})
