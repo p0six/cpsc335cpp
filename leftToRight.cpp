@@ -12,11 +12,11 @@
 using namespace std;
 
 void print_disks(int n, char *disks) {
-// function to print the list of disks, given the number of disks and the actual list
-// n represents the number of disks
-// disks represents the list of disks (index 0 being the first disk) where
-// 0 = a light color disks
-// 1 = a dark color disks
+    // function to print the list of disks, given the number of disks and the actual list
+    // n represents the number of disks
+    // disks represents the list of disks (index 0 being the first disk) where
+    // 0 = a light color disks
+    // 1 = a dark color disks
     for (int i = 0; i < n; i++) {
         if (disks[i] == '0') {
             cout << 'l';
@@ -27,7 +27,6 @@ void print_disks(int n, char *disks) {
     }
     cout << endl;
 }
-
 
 int main() {
     int n, m = 0;
